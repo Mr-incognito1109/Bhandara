@@ -1,12 +1,11 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import {View, Text, SafeAreaView} from 'react-native';
+import React from 'react';
 
 const index = () => {
   return (
-    <View className='bg-black h-full w-full'>
-      <Text className='text-3xl'>Hello this is testing</Text>
-    </View>
-  )
-}
-
-export default index
+    <SafeAreaView className="bg-black h-full w-full justify-center items-center flex-1">
+      <Text className="text-3xl">Hello this is testing</Text>
+    </SafeAreaView>
+  );
+};
+export default index;
